@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="DISPATCH" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/qlp/GitRepository/DataBase/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/qlp/GitRepository/DataBase/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/qlp/GitRepository/DataBase/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dataBase">
+         <Option output="/home/qlp/GitRepository/DataBase/build/dataBase" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/qlp/GitRepository/DataBase/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/qlp/GitRepository/DataBase/cmake/../code/driver/redis.h" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 dataBase" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dataBase/fast">
+         <Option output="/home/qlp/GitRepository/DataBase/build/dataBase" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/qlp/GitRepository/DataBase/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/qlp/GitRepository/DataBase/cmake/../code/driver/redis.h" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 dataBase/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/qlp/GitRepository/DataBase/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/qlp/GitRepository/DataBase/code/driver/redis.cpp">
+         <Option target="dataBase"/>
+      </Unit>
+      <Unit filename="/home/qlp/GitRepository/DataBase/code/driver/redis.h">
+         <Option target="dataBase"/>
+      </Unit>
+      <Unit filename="/home/qlp/GitRepository/DataBase/code/startup/main.cpp">
+         <Option target="dataBase"/>
+      </Unit>
+      <Unit filename="/home/qlp/GitRepository/DataBase/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

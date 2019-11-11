@@ -1,0 +1,3 @@
+/home/qlp/GitRepository/DataBase/build/CMakeFiles/edit_cache.dir
+/home/qlp/GitRepository/DataBase/build/CMakeFiles/rebuild_cache.dir
+/home/qlp/GitRepository/DataBase/build/CMakeFiles/dataBase.dir

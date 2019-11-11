@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qlp/GitRepository/DataBase/code/driver/redis.cpp
+
+/home/qlp/GitRepository/DataBase/code/hiredis/hiredis.h
+read.h
+/home/qlp/GitRepository/DataBase/code/hiredis/read.h
+stdarg.h
+-
+sys/time.h
+-
+stdint.h
+-
+sds.h
+/home/qlp/GitRepository/DataBase/code/hiredis/sds.h
+
+/home/qlp/GitRepository/DataBase/code/hiredis/read.h
+stdio.h
+-
+
+/home/qlp/GitRepository/DataBase/code/hiredis/sds.h
+sys/types.h
+-
+stdarg.h
+-
+stdint.h
+-
+
+/home/qlp/GitRepository/DataBase/code/startup/main.cpp
+iostream
+-
+../hiredis/hiredis.h
+/home/qlp/GitRepository/DataBase/code/hiredis/hiredis.h
+

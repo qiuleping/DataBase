@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11  -g   CMakeFiles/dataBase.dir/home/qlp/GitRepository/DataBase/code/startup/main.cpp.o CMakeFiles/dataBase.dir/home/qlp/GitRepository/DataBase/code/driver/redis.cpp.o  -o dataBase -rdynamic -lhiredis 
